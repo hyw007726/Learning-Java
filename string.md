@@ -22,13 +22,13 @@ a.equals(b) //true
 
 ###Java String additional methods:
 
-compareTo()
-endsWith(), startsWith()
-intern()  //fetch string instance from global string pool
-isBlank(), isEmpty()
-lines()
-regionMatches()
-stripLeading(), stripTrailing() // remove whitespace
+compareTo()  
+endsWith(), startsWith()  
+intern()  //fetch string instance from global string pool  
+isBlank(), isEmpty()  
+lines()  
+regionMatches()  
+stripLeading(), stripTrailing() // remove whitespace  
 
-##String.valueOf(arg) return a string representing arg
+## String.valueOf(arg) return a string representing arg
 
