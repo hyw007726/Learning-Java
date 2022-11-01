@@ -16,3 +16,19 @@ String b ="String.valueOf(new Char []{'s','t','r'})"
 a==b //false
 a.equals(b) //true
 ```
+
+### Java String uses contains() instead of includes()
+### Java uses both strip() and trim()
+
+###Java String additional methods:
+
+compareTo()
+endsWith(), startsWith()
+intern()  //fetch string instance from global string pool
+isBlank(), isEmpty()
+lines()
+regionMatches()
+stripLeading(), stripTrailing() // remove whitespace
+
+##String.valueOf(arg) return a string representing arg
+
