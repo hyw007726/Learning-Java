@@ -18,7 +18,6 @@ a.equals(b) //true
 ```
 
 ### Java String uses contains() instead of includes()
-### Java uses both strip() and trim()
 
 ###Java String additional methods:
 
@@ -28,7 +27,7 @@ intern()  //fetch string instance from global string pool
 isBlank(), isEmpty()  
 lines()  
 regionMatches()  
-stripLeading(), stripTrailing() // remove whitespace  
+strip(), stripLeading(), stripTrailing() // trim() removes only characters <= U+0020 (space); strip() removes all Unicode whitespace characters (but not all control characters, such as \0)
 
-## String.valueOf(arg) return a string representing arg
+
 
