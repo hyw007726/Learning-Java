@@ -25,3 +25,13 @@ Unassgined slots will be null or 0
 int[] primes={2,5,7}
 new Animal [] {dog, cat}
 ```
+### compare String objects, do not use "=="
+```
+String a = "a";
+String b = "a";
+System.out.printLn(a==b); //false
+```
+### char could be automatically converted to int when used as index in arrays
+```
+int[] a = new int [256];
+System.out.printLn(a['a']==0);//true, a['a'] means a[97]
